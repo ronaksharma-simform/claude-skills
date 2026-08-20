@@ -17,5 +17,7 @@ next session — no extra install step needed.
 
 - **[sync-repo](sync-repo/SKILL.md)** — post-pull/clone environment sync
   assistant. Detects dependency changes, needed migrations, and merge
-  conflicts after a `git pull`/`merge`/`clone`, and suggests (never silently
-  runs) the right install/migrate commands.
+  conflicts after a `git pull`/`merge`/`clone`, and runs the right
+  install/migrate commands directly — the tool's own permission prompt is the
+  confirmation. Only asks first when a decision genuinely can't be inferred
+  (which branch to sync, `migrate dev` vs `migrate deploy`).
