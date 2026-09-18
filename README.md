@@ -1,8 +1,8 @@
 # claude-skills
 
-Personal Claude Code skills.
+Personal Claude Code skills .
 
-## Installing a skill
+## Steps to install the skill
 
 Copy the skill's folder into your `~/.claude/skills/` directory, e.g.:
 
